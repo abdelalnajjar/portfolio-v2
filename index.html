@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Abdel Alnajjar — Software Engineer focused on AI/ML, cloud computing, and backend systems." />
+    <title>Abdel Alnajjar | Software Engineer</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="site-header">
+        <a class="brand" href="#top" aria-label="Abdel Alnajjar home">
+          <span class="brand-mark">AA</span>
+          <span class="brand-name">Abdel Alnajjar</span>
+        </a>
+
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+          <span></span><span></span>
+          <span class="sr-only">Open navigation</span>
+        </button>
+
+        <nav id="site-nav" class="site-nav" aria-label="Main navigation">
+          <a href="#about">About</a>
+          <a href="#work">Work</a>
+          <a href="#research">Research</a>
+          <a href="#contact">Contact</a>
+          <a class="nav-link-button" href="assets/Abdel_Resume.pdf" target="_blank" rel="noreferrer">Resume <span>↗</span></a>
+        </nav>
+      </header>
+
+      <main id="top">
+        <section class="hero section-grid" aria-labelledby="hero-title">
+          <div class="hero-copy reveal">
+            <p class="eyebrow"><span class="status-dot"></span> Software Engineer · San Francisco, CA</p>
+            <h1 id="hero-title">Building reliable systems and intelligent tools.</h1>
+            <p class="hero-text">
+              I’m Abdel, a software engineer with a focus on AI/ML, cloud computing, and backend systems. I enjoy turning complex technical ideas into useful, dependable software.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#work">Explore my work <span>↓</span></a>
+              <a class="button button-quiet" href="https://www.linkedin.com/in/abdelalnajjar/" target="_blank" rel="noreferrer">LinkedIn <span>↗</span></a>
+            </div>
+            <div class="hero-meta">
+              <span>Currently pursuing an M.S. in Computer Science</span>
+              <span class="meta-line"></span>
+              <span>San José State University</span>
+            </div>
+          </div>
+
+          <div class="hero-visual reveal reveal-delay-1">
+            <div class="visual-orbit orbit-one"></div>
+            <div class="visual-orbit orbit-two"></div>
+            <div class="profile-frame">
+              <img src="assets/me.png" alt="Portrait of Abdel Alnajjar" />
+            </div>
+            <div class="code-card code-card-top" aria-hidden="true">
+              <span class="code-dot dot-blue"></span><span class="code-dot dot-yellow"></span><span class="code-dot dot-green"></span>
+              <code>model.predict(data)</code>
+            </div>
+            <div class="code-card code-card-bottom" aria-hidden="true">
+              <span class="code-symbol">{</span>
+              <span><b>systems</b>: reliable</span>
+              <span><b>models</b>: curious</span>
+              <span class="code-symbol">}</span>
+            </div>
+          </div>
+        </section>
+
+        <section id="about" class="section about-section" aria-labelledby="about-title">
+          <div class="section-heading reveal">
+            <p class="eyebrow">01 / About</p>
+            <h2 id="about-title">A practical engineer with a research mindset.</h2>
+          </div>
+          <div class="about-layout">
+            <div class="about-lead reveal">
+              <p>
+                My work sits at the intersection of software engineering and applied machine learning. I have built backend services, data pipelines, cloud-deployed systems, and research prototypes that connect technical depth with real-world use.
+              </p>
+              <p>
+                I’m especially interested in systems that are dependable in production: clear interfaces, strong data handling, thoughtful architecture, and models that can be evaluated honestly.
+              </p>
+            </div>
+            <div class="about-facts reveal reveal-delay-1">
+              <div class="fact"><span class="fact-number">01</span><span>Backend systems</span></div>
+              <div class="fact"><span class="fact-number">02</span><span>Cloud architecture</span></div>
+              <div class="fact"><span class="fact-number">03</span><span>AI / machine learning</span></div>
+              <div class="fact"><span class="fact-number">04</span><span>Research communication</span></div>
+            </div>
+          </div>
+        </section>
+
+        <section id="work" class="section work-section" aria-labelledby="work-title">
+          <div class="section-heading split-heading reveal">
+            <div>
+              <p class="eyebrow">02 / Selected work</p>
+              <h2 id="work-title">Projects built to be understood.</h2>
+            </div>
+            <p class="section-note">A selection of engineering, cloud, and AI/ML work. More details are available inside each project.</p>
+          </div>
+
+          <div class="project-list">
+            <article class="project-card project-featured reveal">
+              <div class="project-index">01</div>
+              <div class="project-content">
+                <div class="project-topline"><span class="project-type">Cloud engineering</span><span class="project-status status-live">Deployed</span></div>
+                <h3>Cloud-Native Order API</h3>
+                <p>Designed and deployed a reliable order service that handles retries, duplicate requests, partial failures, and persistent data safely across cloud infrastructure.</p>
+                <div class="tech-list"><span>AWS</span><span>ECS / Fargate</span><span>EC2</span><span>RDS PostgreSQL</span><span>Docker</span><span>CloudWatch</span></div>
+                <button class="text-link project-details" type="button" data-project="cloud">View project details <span>↗</span></button>
+              </div>
+              <div class="project-graphic graphic-cloud" aria-hidden="true">
+                <div class="cloud-node node-client">Client</div>
+                <div class="cloud-arrow">→</div>
+                <div class="cloud-node node-alb">ALB</div>
+                <div class="cloud-arrow">→</div>
+                <div class="cloud-node node-ecs">ECS</div>
+                <div class="cloud-arrow">→</div>
+                <div class="cloud-node node-rds">RDS</div>
+              </div>
+            </article>
+
+            <article class="project-card reveal">
+              <div class="project-index">02</div>
+              <div class="project-content">
+                <div class="project-topline"><span class="project-type">Backend systems</span><span class="project-status">Private repository</span></div>
+                <h3>Expenses Management System</h3>
+                <p>A backend-focused expense platform with REST APIs, reporting, analytics, cost-trend comparisons, and a scalable NoSQL data model.</p>
+                <div class="tech-list"><span>Node.js</span><span>Express</span><span>MongoDB</span><span>Mongoose</span><span>JavaScript</span><span>Bootstrap</span></div>
+                <button class="text-link project-details" type="button" data-project="ems">View project details <span>↗</span></button>
+              </div>
+              <div class="project-graphic graphic-database" aria-hidden="true"><span></span><span></span><span></span><b>data → insight</b></div>
+            </article>
+
+            <article class="project-card reveal">
+              <div class="project-index">03</div>
+              <div class="project-content">
+                <div class="project-topline"><span class="project-type">Current research</span><span class="project-status status-research">In progress</span></div>
+                <h3>Privacy-Preserving Fall Detection</h3>
+                <p>Researching a modular fall-detection system that uses body-joint movement while minimizing exposure of identity and raw video.</p>
+                <div class="tech-list"><span>Pose estimation</span><span>Computer vision</span><span>Temporal models</span><span>Privacy</span><span>LLMs</span></div>
+                <button class="text-link project-details" type="button" data-project="fall">View research details <span>↗</span></button>
+              </div>
+              <div class="project-graphic graphic-pose" aria-hidden="true"><div class="pose-head"></div><div class="pose-line line-a"></div><div class="pose-line line-b"></div><div class="pose-line line-c"></div><div class="pose-line line-d"></div></div>
+            </article>
+          </div>
+        </section>
+
+        <section id="research" class="section research-section" aria-labelledby="research-title">
+          <div class="section-heading reveal">
+            <p class="eyebrow">03 / Research direction</p>
+            <h2 id="research-title">From video to a privacy-aware alert.</h2>
+          </div>
+          <div class="research-layout">
+            <div class="research-copy reveal">
+              <p>
+                My current research explores how a fall-detection system can understand movement without depending on a person’s identity, clothing, or raw appearance.
+              </p>
+              <p>
+                The architecture separates perception, temporal reasoning, privacy rendering, and human-readable alerts into clear modules. That makes the system easier to test, improve, and explain.
+              </p>
+              <a class="text-link" href="#contact">Talk to me about the research <span>↗</span></a>
+            </div>
+            <div class="pipeline reveal reveal-delay-1" aria-label="Fall detection system pipeline">
+              <div class="pipeline-step"><span>01</span><strong>Video</strong><small>Input stream</small></div>
+              <div class="pipeline-connector"></div>
+              <div class="pipeline-step"><span>02</span><strong>Pose</strong><small>Body joints</small></div>
+              <div class="pipeline-connector"></div>
+              <div class="pipeline-step"><span>03</span><strong>History</strong><small>Motion sequence</small></div>
+              <div class="pipeline-connector"></div>
+              <div class="pipeline-step step-accent"><span>04</span><strong>Alert</strong><small>Useful explanation</small></div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section skills-section" aria-labelledby="skills-title">
+          <div class="section-heading split-heading reveal">
+            <div><p class="eyebrow">04 / Toolkit</p><h2 id="skills-title">Tools I use to make ideas real.</h2></div>
+            <p class="section-note">A growing toolkit shaped by production work, graduate study, and research.</p>
+          </div>
+          <div class="skills-grid reveal">
+            <div class="skill-group"><span class="skill-number">01</span><h3>Software engineering</h3><p>JavaScript · TypeScript · Python · Java · REST APIs · React · Node.js · Express</p></div>
+            <div class="skill-group"><span class="skill-number">02</span><h3>Data & AI/ML</h3><p>Machine learning · deep learning · computer vision · NLP · NumPy · Pandas · model evaluation</p></div>
+            <div class="skill-group"><span class="skill-number">03</span><h3>Cloud & systems</h3><p>AWS · EC2 · ECS · Fargate · RDS · Docker · Firebase · MongoDB · distributed systems</p></div>
+            <div class="skill-group"><span class="skill-number">04</span><h3>Ways of working</h3><p>System design · debugging · technical communication · Agile/Scrum · documentation · collaboration</p></div>
+          </div>
+        </section>
+
+        <section class="section education-section" aria-labelledby="education-title">
+          <div class="section-heading reveal"><p class="eyebrow">05 / Education & experience</p><h2 id="education-title">Learning deeply and building steadily.</h2></div>
+          <div class="timeline">
+            <div class="timeline-item reveal"><div class="timeline-date">2025 — 2027</div><div><h3>M.S. in Computer Science</h3><p>San José State University · San José, CA</p><div class="course-tags" aria-label="Graduate coursework"><span>CS 200W · Graduate Technical Writing</span><span>CS 249 · Distributed Computing</span><span>CS 218 · Topics in Cloud Computing</span><span>CS 252 · Advanced Programming Language Principles</span><span>CS 258 · Computer Communication Systems</span><span>CS 156 · Introduction to Artificial Intelligence</span><span>CS 171 · Introduction to Machine Learning</span><span>CS 297 · Writing Project or Thesis Preparation</span><span>CS 271 · Topics in Machine Learning</span></div></div></div>
+            <div class="timeline-item reveal"><div class="timeline-date">2023 — 2025</div><div><h3>Software Engineer · Amotions Inc.</h3><p>Backend APIs, authorization, data pipelines, real-time services, and scalable platform features.</p></div></div>
+            <div class="timeline-item reveal"><div class="timeline-date">2020 — 2022</div><div><h3>B.S. in Computer Science</h3><p>University of California, Santa Cruz · Dean’s List</p></div></div>
+            <div class="timeline-item reveal"><div class="timeline-date">2018 — 2020</div><div><h3>Data Structures & Algorithms Tutor</h3><p>College of San Mateo · Java, C++, recursion, complexity, and algorithm design.</p></div></div>
+          </div>
+        </section>
+
+        <section id="contact" class="section contact-section" aria-labelledby="contact-title">
+          <div class="contact-card reveal">
+            <p class="eyebrow">06 / Contact</p>
+            <h2 id="contact-title">Let’s build something thoughtful.</h2>
+            <p>Whether you want to discuss software engineering, cloud systems, or applied AI/ML, I’d be happy to connect.</p>
+            <a class="email-link" href="mailto:abdel.alnajjar1@gmail.com">abdel.alnajjar1@gmail.com <span>↗</span></a>
+            <div class="contact-links"><a href="https://www.linkedin.com/in/abdelalnajjar/" target="_blank" rel="noreferrer">LinkedIn ↗</a><a href="https://github.com/abdelalnajjar" target="_blank" rel="noreferrer">GitHub ↗</a><span>San Francisco, California</span></div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer"><span>© <span id="current-year"></span> Abdel Alnajjar</span><span>Software Engineer · AI/ML · Cloud</span><a href="#top">Back to top ↑</a></footer>
+    </div>
+
+    <dialog id="project-dialog" class="project-dialog">
+      <button class="dialog-close" type="button" aria-label="Close project details">×</button>
+      <div id="dialog-content"></div>
+    </dialog>
+    <script src="script.js"></script>
+  </body>
+</html>
